@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Sparkles, Zap, Shield } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { FloatingElements } from "@/components/illustrations/floating-elements";
 
 export function HeroSection() {
   return (
@@ -50,6 +51,9 @@ export function HeroSection() {
           ease: "easeInOut",
         }}
       />
+
+      {/* Floating Tech Elements */}
+      <FloatingElements />
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-5xl mx-auto">
